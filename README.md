@@ -1,6 +1,7 @@
 # 胸骨圧迫判定システム
 このアプリケーションは胸骨圧迫(心臓マッサージ)が正しく行えているかをカメラを通して判定するシステムである。
-心肺蘇生法(cardiopulmonary resuscitation: CPR)の一部分の判定を担うので、CPREvalAppとしている。
+心肺蘇生法(cardiopulmonary resuscitation: CPR)の一部分の判定を担うので、CPREvalAppとしている。  
+アプリケーションにアクセスするときの通信のみで、起動後はシステムが端末内で完結しているため、情報漏洩はない。
 
 - [ここをクリックして、とにかく利用してみる。](https://www.cc.miyazaki-u.ac.jp/cblab/CPREvalApp/app.html)
 
@@ -76,9 +77,9 @@
 - 「録画保存」ボタンを押すと、それまで録画した映像がダウンロード可能となる。録画した映像にはモザイクがかかっている。
 
 # [使い方は理解したので、ここをクリックして利用する。](https://www.cc.miyazaki-u.ac.jp/cblab/CPREvalApp/app.html)
+*自分で試すのにためらう人はインターネット中にある動画にカメラを向けて試すこともできる。
 
-
-
+<br><br><br>
 
 ## 技術(方法)
 ### MoveNetを使った姿勢推定
